@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-concurrency-project"
+version = "0.1.0"
+description = "python concurrency project class"
+authors = ["HyunjunJeon <jeonhj920@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_concurrency_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+asyncio = "^3.4.3"
+fastapi = "^0.95.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
